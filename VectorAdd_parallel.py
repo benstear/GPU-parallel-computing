@@ -37,7 +37,6 @@ def main():
         B = np.ones(N,dtype=np.float32)
         C = np.zeros(N,dtype=np.float32)
         
-        
         start = timer()
         # VectorAdd(A,B,C)  # the only other step is to then change how we call VectorAdd
         C = VectorAdd(A,B)
